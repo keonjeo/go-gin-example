@@ -1,6 +1,6 @@
-module github.com/EDDYCJY/go-gin-example
+module go-gin-example
 
-go 1.13
+go 1.14
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.3.1-0.20180527032555-9e463b461434

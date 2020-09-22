@@ -18,10 +18,10 @@ fmt:
 	@gofmt -w ./../go-gin-example
 air:
 	@echo "running by ..."
-	make fmt && source ./env_local.sh && air
+	make fmt && air
 run:
 	@echo "running..."
-	make fmt && source ./env_local.sh && go run *.go
+	make fmt && go run *.go
 dep:
 	@echo "downloading dependence..."
 	make fmt && go get -v -x && go mod download && go mod tidy
