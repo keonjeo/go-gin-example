@@ -47,7 +47,7 @@ func Setup() {
 
 // CloseDB closes database connection (unnecessary)
 func CloseDB() {
-	defer db.Close()
+	db.Close()
 }
 
 // updateTimeStampForCreateCallback will set `CreatedOn`, `ModifiedOn` when creating
